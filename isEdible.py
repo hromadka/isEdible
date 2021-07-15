@@ -1,33 +1,48 @@
-
+from csv import reader
+from csv import writer
 from googlesearch import search
 #from bs4 import BeautifulSoup
 import requests
   
 # read csv
-file1 = open('Dish-subset-TEST.csv', 'r')
-Lines = file1.readlines()
+fin = open('Dish-subset-TEST.csv', 'r')
+Lines = fin.readlines()
 
-# read input; count occurences for conditional probabilties; save test_cases for prediction step
-for line in Lines: #for line in stdin:
-    query = "default"
-    # note that this fails if there is a comma in the field
-    x = line.rstrip('\n').split(',')
+# read input; write output line-by-line
+with open('Dish-edible.csv', 'w') as fout:
+    for line in Lines: #for line in stdin:
+        query = "default"
+        # note that this fails if there is a comma in the field
+        x = line.rstrip('\n').split(',')
 
-    # search term
-    query = x[1]  
+        # search term
+        query = x[1]  
 
-    url = "https://www.google.com/search?q=" + query + "&sourceid=chrome&ie=UTF-8"
+        url = "https://www.google.com/search?q=" + query + "&sourceid=chrome&ie=UTF-8"
 
-    response = requests.get(url)
+        response = requests.get(url)
+        txt = response.text.lower()
 
-    if 'food' in response.text:
-        print(query, "<-- found one!")
-    else:
-        # TODO add additional search terms 
-        print(query, "<-- DO NOT EAT")
+        result = ''
+        if 'food' in txt:
+            print(query, "<-- found one!")
+            result = line + ",1" 
+        elif 'drink' in txt:
+            print(query, "<-- found one!")
+            result = line + ",1"  
+        elif 'recipe' in txt:  # this captures smoked pork chop
+            print(query, "<-- found one!")
+            result = line + ",1"
+        else:
+            # TODO add additional search terms 
+            print(query, "<-- DO NOT EAT")
+            result = line + ",0"     
 
 
-# write modified csv
+        # write modified csv
+        fout.write(result)
 
+fout.close()
+fin.close()
 
 

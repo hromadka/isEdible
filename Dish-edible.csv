@@ -1,0 +1,236 @@
+id,name,description,menus_appeared,times_appeared,first_appeared,last_appeared,lowest_price,highest_price
+,01,Consomme printaniere royal,,8,8,1897,1927,0.2,0.4
+,02,Chicken gumbo,,111,117,1895,1960,0.1,0.8
+,03,Tomato aux croutons,,14,14,1893,1917,0.25,0.4
+,04,Onion au gratin,,41,41,1900,1971,0.25,1
+,05,St. Emilion,,66,68,1881,1981,0,18
+,07,Radishes,,3262,3346,1854,2928,0,25
+,08,Chicken soup with rice,,48,49,1897,1961,0.1,0.6
+,09,Clam broth (cup),,14,16,1899,1962,0.15,0.4
+,010,"Cream of new asparagus, croutons",,2,2,1900,1900,0,0
+,011,Clear green turtle,,156,156,1893,1937,0.25,60
+,012,"Striped bass saute, meuniere",,2,2,1900,1900,0,0
+,013,Anchovies,,453,484,1858,1987,0,30
+,014,Fresh lobsters in every style,,4,4,1899,1900,0,0
+,015,Celery,,4248,4693,1,2928,0,50
+,016,Pim-olas,,145,148,1897,1918,0.15,35
+,017,Caviar,,505,534,1880,1987,0,75
+,018,Sardines,,1426,1484,1856,2928,0,50
+,019,India chutney,,16,16,1865,1901,0.1,0.2
+,020,Pickles,,452,471,1852,1987,0,10
+,021,English walnuts,,83,86,1851,1948,0.1,0.3
+,022,Pate de foies-gras,,9,9,1898,1901,1,1
+,023,Pomard,,11,11,1880,1950,0.75,5
+,024,"Brook trout, mountain style",,2,2,1900,1900,0,0
+,025,"Whitebait, sauce tartare",,4,4,1900,1901,0.3,0.75
+,026,Clams,,171,181,1881,1970,0.1,0.9
+,027,Oysters,,290,292,1862,1963,0,35
+,028,Claremont planked shad,,2,2,1899,1900,1.5,2.5
+,029,G. H. Mumm & Co's Extra Dry,,14,14,1895,1914,2,4
+,030,Cerealine with Milk,,1,1,1901,1901,0,0
+,031,Sliced Bananas,,221,239,1900,1987,0,15
+,032,Wheat Vitos,,3,3,1900,1900,0,0
+,033,Sliced Tomatoes,,1197,1258,1873,2928,0,25
+,034,Russian Caviare on Toast,,3,3,1900,1900,,
+,035,Smoked beef in cream,,21,21,1896,1933,0.3,0.9
+,038,Apple Sauce,,721,829,1,1987,0,20
+,039,Potage a la Victoria,,5,5,1899,1901,,
+,040,Breakfast,,28,28,1900,1967,0.25,1
+,041,Strawberries,,305,340,1854,1985,0,50
+,042,Preserved figs,,257,259,1889,1969,0,30
+,043,BLUE POINTS,,868,891,1881,1968,0.15,50
+,044,CONSOMME ANGLAISE,,5,5,1900,1907,0.2,0.25
+,045,CREAM OF CAULIFLOWER,,18,18,1899,1949,0.1,0.5
+,046,"BROILED SHAD, A LA MAITRE D'HOTEL",,6,6,1896,1900,0,0
+,047,SLICED CUCUMBERS,,455,458,1881,1964,0,25
+,048,SALTED ALMONDS,,767,776,1889,2012,0,10
+,049,"POTATOES, JULIEN",,3,3,1900,1900,0,0
+,050,Cracked Wheat,,120,124,1859,1917,0.1,0.3
+,051,Malt Breakfast Food,,63,64,1899,1917,0.1,0.35
+,152,"BOILED BEEF TONGUE, ITALIAN SAUCE",,3,3,1900,1900,0,0
+,053,Young Onions,,157,157,1894,1949,0.05,10
+,054,Pears,,630,649,1852,1974,0,50
+,055,"ROAST SIRLOIN OF BEEF, YORKSHIRE PUDDING",,11,12,1900,1974,0,0.75
+,057,Huhnerbruhe,,11,11,1900,1901,0,0
+,058,"ROAST EASTER LAMB, MINT SAUCE",,4,4,1899,1900,0,0
+,059,Rockaways,,157,162,1889,1948,0.2,50
+,060,Hafergrutze,,205,218,1899,1910,,
+,061,BROWNED POTATOES,,54,57,1893,1980,0.25,20
+,062,Pampelmuse,,30,30,1900,1910,0,0
+,063,Apfelsinen,,182,185,1899,1935,,
+,064,Ananas,,94,104,1884,1978,0,0.95
+,065,Milchreis,,135,135,1899,1910,,
+,066,Grape fruit,,712,746,1895,1968,0,2540
+,067,Oranges,,1425,1481,1851,2012,0,25
+,068,Clam Fritters,,258,270,1880,1959,0.15,50
+,069,Filet v. Schildkrote m. Truffeln,,3,3,1900,1900,0,0
+,070,"Bouillon, en Tasse",,17,17,1897,1906,0.2,0.25
+,071,Spargel Suppe,,4,4,1899,1900,0,0
+,072,"Kraftsuppe, konigliche Art",,2,2,1900,1900,0,0
+,073,Rissoles a la Merrill,,4,4,1900,1900,0,0
+,075,S. Julien,,4,4,1900,1900,0.75,1.5
+,076,Chambertin,,239,251,1851,1977,0,250
+,077,St. Julien,,336,392,1851,1970,0,175
+,078,Vegetable,,108,116,1892,1987,0,1.75
+,080,Puree of split peas aux croutons,,11,11,1900,1917,0.05,0.35
+,081,Consomme in cup,,127,127,1896,1949,0,20
+,082,"Broiled shad, Maitre d'hotel",,27,27,1889,1937,0.3,0.9
+,083,Mashed potatoes,,2573,2660,1852,2012,0,15
+,084,Breaded veal cutlet with peas,,3,3,1900,1900,0,0
+,086,Hind-quarter of spring lamb with stuffed tomatoes,,3,3,1900,1900,0,0
+,087,Hot or cold ribs of beef,,1,1,1900,1900,,
+,088,Doucette salad,,7,7,1900,1910,0,0
+,089,New beets,,134,139,1865,1981,0.05,0.5
+,090,Salisbury steak au cresson,,1,1,1900,1900,0,0
+,091,Boiled rice,,828,837,1859,1969,0,25
+,092,Stewed oyster plant,,28,28,1884,1901,0.1,0.4
+,093,"Boiled onions, cream sauce",,46,48,1893,1940,0.05,0.45
+,094,Old fashioned rice pudding,,16,22,1899,1945,0.15,0.3
+,095,Ice cream,,1050,1168,1880,1993,0,20
+,096,Coffee,,7750,8497,1,2928,0,30
+,097,Tea,,4167,4781,1858,2012,0,25
+,098,Milk,,1895,2292,1890,2012,0,45
+,099,Mush,,18,18,1853,1915,0.05,0.15
+,0100,Rolled Oats,,104,112,1900,1989,0,0.35
+,0520468,- topped with -,,1,1,0,0,0,0
+,0520469,add .70 for each extra topping,,1,2,0,0,0,0
+,0520462,"Double Thick ""Plus""",,1,1,0,0,0,0
+,0439833,11-May-39,,1,1,1939,1939,,
+,0517541,30-Jan-95,,1,1,0,0,0,0
+,0160070,1-Jan,,1,1,1979,1979,0,0
+,0178887,-,,54,54,0,0,0,0
+,020332,----------------,,1,1,1900,1900,0,0
+,0200155,               Assorted Sausage,,1,1,1910,1910,0,0
+,0200157,               Chester Cheese,,1,1,1910,1910,0,0
+,0200130,               Oatmeal  Cream,,1,1,1910,1910,0,0
+,0200143,            Wiltshire Bacon,,1,1,1910,1910,0,0
+,0193726,          (Glace vanille),,1,1,0,0,0,0
+,0437368,         au gratin,,1,1,1914,1914,0.35,0.35
+,0481860,"     ""     hashed in cream",,1,1,0,0,0,0
+,0131244,"     ""  Newburg",,1,1,1900,1900,0.75,0.75
+,0193735,     Delice cafe sauce chocolat,,1,1,0,0,0,0
+,0193695,     Inapoy,,1,1,1940,1940,0,0
+,0202007,     Manga,,1,1,1940,1940,0,0
+,0193694,     Sinigang na Isda,,1,1,1940,1940,0,0
+,0193693,     Timona a Camotig,,1,1,1940,1940,0,0
+,0200160,     To special Order:  Fruit,,1,1,1910,1910,0,0
+,0131274,"    ""   ""   kidneys",,1,1,1900,1900,0.35,0.35
+,0520590,10th,,1,1,0,0,0,0
+,0100621,1901-296,,1,0,1901,1901,0,0
+,078727,1901-547,,1,1,1901,1901,0,0
+,0100002,1901-632,,1,1,1901,1901,0,0
+,0520380,"Guess What? You just might have a complimentary round of drinks coming! If your waiter or waitress forgets either to introduce themselves or if they forget to take your drink order, call the manager over and have a free round of drinks on your waiter.",,1,1,0,0,0,0
+,1407624,"Guess What? You just might have a complimentary round of drinks coming! If your waiter or waitress forgets to introduce themselves or if they forget to take your drink order, call the manager over and have a free round of drinks on your waiter.",,1,0,1985,1985,,
+,1519861,guest and speaker of the evening hon. jas. m. beck formerly assistant ,,1,0,0,0,0,0
+,0471375,Guest Dish- Prepared to a recipe provided by Raymond Blanc- please see inside cover for details,,1,1,1993,1993,,
+,1471395,"Guest Wine- As featured on the ""Raymond Blanc"" insert inside the front cover of the menu",,1,1,1993,1993,,
+,0409699,"Guests remaining for dancing after 8:30 p.m., a cover charge of $1.50 and 20% federal cabaret tax will be added to your check.",,1,1,1959,1959,,
+,0385691,Guests Will Please Pay Cashier,,1,1,1918,1918,,
+,055649,#NAME?,,1,1,1900,1900,3,5
+,0143610,#NAME?,,1,1,1859,1859,3.5,3.5
+,0158703,#NAME?,,3,3,0,0,9,15
+,0158704,#NAME?,,1,1,0,0,35,35
+,0637,&,,4,4,1901,1901,0,0
+,0645,N.Y. Public Library,,2,2,1895,1907,0,0
+,0520603,Spanish Salad - Chicory Salad with Crusts,,1,1,0,0,0,0
+,0520604,Gin-Fizz,,0,0,0,0,0,0
+,0520605,Gin-Fizz  ,,1,0,0,0,0,0
+,0520606,Gin-Fizz  Gin Citrone Soda,,1,0,0,0,0,0
+,0520607,"Gin-Fizz, Gin Citrone Soda",,1,1,0,0,0,0
+,0520608,"Prarie Oyster, Eigelb Ketchup Ol",,1,1,0,0,0,0
+,0520609,"Pernod Flip, Pernod Orange Sahne",,1,1,0,0,0,0
+,0520610,Double chicken fried steak,,1,1,0,0,0,0
+,0520611,chicken fried chicken,,1,1,0,0,0,0
+,0520612,"Grilled Chicken Topped w/Swiss, Mushrooms, Onions",,1,1,0,0,0,0
+,0520613,Jumbo Fried Shrimp.,,1,1,0,0,0,0
+,0520614,RIBEYE STEAK & FRIED SHRIMP,,1,1,0,0,0,0
+,0520615,Smoked Pork chop.,,1,1,0,0,0,0
+,0520616,Double smoked pork chop.,,1,1,0,0,0,0
+,0520617,CHEESE CAKE W/CHERRIES OR BLUEBERRIES,,1,1,0,0,0,0
+,0520618,"Grilled Chicken with oregon potatoes parisienne, Vichy carrots",,1,1,0,0,0,0
+,0520619,CHARCOAL BROILED MINUTE TENDERLOIN STEAK with Onions or Mushrooms,,1,1,0,0,0,0
+,0520620,ROAST ROUND OF SIRLOIN STEAK WITH [natural] MUSHROOM GRAVY,,1,1,0,0,0,0
+,0520621,Braised Beef Short Ribs,,1,1,0,0,0,0
+,0520622,Broiled Flank Steak with Brown Sauce ,,1,1,0,0,0,0
+,0520623,Sheraton Apple Pie ,,1,1,0,0,0,0
+,0520624,Southern Pecan Pie ,,1,1,0,0,0,0
+,0520625,"Rich Vanilla,",,1,1,0,0,0,0
+,0520626,"Srawberry,",,1,1,0,0,0,0
+,0520627,Meat 'n Taters: A recipe stolen from Mama's kitchen it is just Meat and Potatoes in a sizzling pot   Tossed Salad   Dessert   Beverage,,1,0,0,0,0,0
+,1520628,"Meat 'n Taters: A recipe stolen from Mama's kitchen; it is just Meat and Potatoes in a sizzling pot   Tossed Salad, Dessert, Beverage",,1,1,0,0,0,0
+,1520629,"On A Sizzling Platter: Veal Cutlet Parmigiana, French Fried Onions, Mashed 'taters, Tossed Salad, Dessert, Beverage",,0,0,0,0,0,0
+,0520630,"On A Sizzling Platter: Veal Cutlet Parmigiana, French Fried Onions, Mashed 'taters, Tossed Salad, Dessert, Beverage ",,1,1,0,0,0,0
+,0520631,"On a Sizzling Platter: Omah Kiam: Chunks of Potted Steak on Curried Rice; Tossed Salad, Dessert, Beverage",,1,1,0,0,0,0
+,0520632,TERRAPIN A LA TRAVERS,,1,1,0,0,0,0
+,0520633,French Melba Toast,,1,1,0,0,0,0
+,0520634,Smothered Green Kale,,1,1,0,0,0,0
+,0520635,Bermuda Potato-Persillee,,1,1,0,0,0,0
+,0520636,"BREAST OF CHICKEN, CHAUSSEUR",,1,1,0,0,0,0
+,0520637,Fresh Mushrooms Forestiere,,1,1,0,0,0,0
+,0520638,Flötegröt,,1,1,0,0,0,0
+,0520639,Karbonader med lök,,1,1,0,0,0,0
+,0520640,Oksemörbrad Ménagère,,1,1,0,0,0,0
+,0520641,Aprikosgröt med flöte,,1,1,0,0,0,0
+,0520642,Bouillon Royal eller,,1,0,0,0,0,0
+,0520643,Svinekotelett med erter ,,1,1,0,0,0,0
+,0520644,Avk. hellefisk med persillesmor,,1,1,0,0,0,0
+,0520645,Hellefisk frit. Remouladesaus,,1,1,0,0,0,0
+,0520646,GREEN CHILE STEW,,1,1,0,0,0,0
+,0520647,SM. Milk,,1,1,0,0,0,0
+,0520648,lg milk,,1,1,0,0,0,0
+,0520649,"CONSOMME, Double, Hot, Cup, Jellied",,1,1,0,0,0,0
+,0520650,"OYSTERS Stewed in Milk, Cream",,1,1,0,0,0,0
+,0520651,"Green Apple Pie with Cheese, AlaMode",,1,1,0,0,0,0
+,0520652,The Catch of the Day,,1,0,0,0,0,0
+,0520653,The Catch of the Day - Fresh from the Market,,1,1,0,0,0,0
+,0520654,La Vichyssoise glacée de Monsieur Diat,,1,1,0,0,0,0
+,0520655,"A L'etal du Poissonier: Victor a choisi pour vous, regardez l'ardoise",,1,0,0,0,0,0
+,0520656,A L'etal du Poissonier: Victor a choisi pour vous... Regardez l'ardoise,,1,1,0,0,0,0
+,0520657,Un Morceau Pour Monsieur,,1,1,0,0,0,0
+,0520658,Une Tranche Pour Madame,,1,1,0,0,0,0
+,0520659,Le Plat du Jour,,1,1,0,0,0,0
+,0520660,Le Chef Michel a Préparé Pour Vous... Regardez L'Ardoise,,1,1,0,0,0,0
+,0520661,Thé Glacée,,1,0,0,0,0,0
+,0520662,ORCHESTRA PROGRAM,,1,1,0,0,0,0
+,0520663,March,,1,1,0,0,0,0
+,0520664,The Starry Jack,,1,1,0,0,0,0
+,0520665,Hildreth,,1,1,0,0,0,0
+,0520666,Tango,,1,1,0,0,0,0
+,0520667,Hein,,1,1,0,0,0,0
+,0520668,Characteristic,,1,1,0,0,0,0
+,0520669,Finale,,1,1,0,0,0,0
+,0520670,On Desert Sands,,1,1,0,0,0,0
+,0520671,Duryea,,1,1,0,0,0,0
+,0520672,Potato Bug Parade,,1,1,0,0,0,0
+,0520673,Beatrice Fairfax,,1,0,0,0,0,0
+,0520674,Beatrice,,0,0,0,0,0,0
+,0520675,Beatrice ,,1,1,0,0,0,0
+,0520676,Fairfax,,1,1,0,0,0,0
+,0520677,Allen,,1,1,0,0,0,0
+,0520678,Lenzberg,,1,1,0,0,0,0
+,0520679,Cobb,,1,1,0,0,0,0
+,0520680,Monaco,,1,1,0,0,0,0
+,0520681,W.F. Berry,,1,1,0,0,0,0
+,0520682,"Bandmaster, U.S.N",,1,1,0,0,0,0
+,0520683,United States Ship Wyoming,,1,1,0,0,0,0
+,0520684,Wardroom Mess,,1,1,0,0,0,0
+,0520685,22-Feb-16,,1,1,0,0,0,0
+,0520686,"Guacanayabo Bay, Cuba",,1,1,0,0,0,0
+,0520687,Surf Pot Luck,,1,1,0,0,0,0
+,0520688,A combination of Seafood delicately blended into a light cream soup with Sherry Wine and glazed,,1,0,0,0,0,0
+,1520689,"Originated in the small town of Tijuana, Mexico.",,1,0,0,0,0,0
+,0520690,Whole Broiled Chicken Lobster with Drawn Butter,,1,1,0,0,0,0
+,0520691,"Potatoes, Cole Slaw",,1,1,0,0,0,0
+,0520692,"Pies, Strudle, Ice Cream",,1,1,0,0,0,0
+,0520693,"Coffee, Tea, or Demi Tasse",,1,1,0,0,0,0
+,0520694,Playing Cards :,,1,1,0,0,0,0
+,0520695,The amount due on Wine Cards will be collected the day before arrival.,,1,1,0,0,0,0
+,0520696,Frog Legs -- Sauteed in Butter,,1,1,0,0,0,0
+,0520697,VEGETARIAN BURRITO Assorted vegetables in a flour tortilla with red chile and cheese; spanish rice and posole,,1,1,0,0,0,0
+,0520698,All served with Sopaipillas and Honey,,1,1,0,0,0,0
+,0520699,TRY OUR WORLD FAMOUS CREPES SUZETTE CABO SAN LUCAS MADE AT YOUR TABLE,,1,1,0,0,0,0
+,0520700,"Aiguilettes of Spanish Mackerel, Cardinal",,1,1,0,0,0,0
+,0520701,"Salt-Mackerel,",,1,1,0,0,0,0
+,0520702,Kalbsnierenbraten Gelbe Rüben und Erbsen,,1,1,0,0,0,0
+,0520703,"DUMPLINGS, CRANBERRIES",,1,1,0,0,0,0
+,0
