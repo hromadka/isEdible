@@ -5,7 +5,13 @@ in_csv = 'Dish.csv'
 number_lines = sum(1 for row in (open(in_csv)))
 rowsize = 80000
 
-colnames = ['id', 'name', 'description', 'menus_appeared', 'times_appeared', 'first_appeared', 'last_appeared', 'lowest_price', 'highest_price']
+#colnames = ['id', 'name', 'description', 'menus_appeared', 'times_appeared', 'first_appeared', 'last_appeared', 'lowest_price', 'highest_price']
+# make this dynamic in case adding new cols through OpenRefine or other means
+fin = open(in_csv, 'r')
+header = fin.readline()
+colnames = header.rstrip('\n').split(',')
+fin.close()
+
 for i in range(1,number_lines,rowsize):
     df = pd.read_csv(in_csv,
           header=None,
