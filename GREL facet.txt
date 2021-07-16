@@ -1,0 +1,49 @@
+value.reinterpret("utf-8").toLowercase().replace(/[%@#!:]/,' ').replace(/\p{Punct}/,' ').replace('w/','with').replace(' w.',' with')
+
+foie gras, Ã  la gÃªlÃ©e
+sautÃ© of venison Ã  la financiÃ¨re
+kÃ¤se, frÃ¼chte
+mÃ¼nchener bÃ¼rger-brÃ¤u.
+gÃ¥selever m/ toast og smÃ¸r (min. 2 pors. Ã¡ kr. 15)
+â€ždie spezialitÃ¤t des hauses â€œ: aus unserem heringsfaÃŸ
+1/2 hÃ¤hnchen vom grill â€žamericaineâ€, feine gemÃ¼se, pommes frites
+oksemÃ¶rbrad mÃ©nagÃ¨re
+137447	à¤ªà¤¾à¤¤:à¤•à¤•à¤³	à¤ªà¤¾à¤¤ à¤•à¤•à¤³		1	1	1897	1897	0	0
+137447,पात:ककळ,पात ककळ,,1,1,1897,1897,0.0,0.0
+
+
+Google: "Ã©	too much UTF-8 encoding, or viewing UTF-8 encoded text with Latin-1 encoding"
+
+OpenRefine - using Latin-1 encoding made no difference.
+Manually replace per table: http://www.i18nqa.com/debug/utf8-debug.html
+Manual replacement works in Excel, but use OpenRefine so reproducible with json script.
+
+
+é	Ã©	Ã©	canapÃ© suÃ©dois
+ü	Ã¼	Ã¼	rebhÃ¼hner
+ç	Ã§	Ã§	carrÃ© des prÃ©s-salÃ©s Ã  la niÃ§oise
+ä	Ã¤	Ã¤	schweizer u. american. kÃ¤se
+á	Ã¡	Ã¡	soup Ã¡ l'Ã©cossaise
+ó	Ã³	Ã³	fritos con jamÃ³n o chorizo
+ñ	Ã±	Ã±	tortilla a la espaÃ±ola
+ë	Ã«	Ã«	moÃ«t et chandon
+ô	Ã´	Ã´	entre-cÃ´te aux pommes
+ê	Ãª	Ãª	corbeilles de pÃªches
+i	Ã–	Ã­	westphalÃ­an ham
+â	Ã¢	Ã¢	aux pÃ¢tes
+è	Ã¨	Ã¨	crÃ¨me de menthe 
+ö	Ã¶	Ã¶	kreutzbrÃ¶tchen
+û	Ã»	Ã»	scheiben-ragoÃ»t von kapaunen
+î	Ã®	Ã®	maÃ®tre d'hotel
+æ	Ã¦	Ã¦	Ã¦gte skilpaddesuppe
+ø	Ã¸	Ã¸	legeret hÃ¸nsekÃ¸
+ß	ÃŸ	ÃŸ	groÃŸes
+å	Ã¥	Ã¥	gÃ¥selever
+„	â€ž	â€ž	â€ždie spezialitÃ¤t des hauses â€œ: aus unserem heringsfaÃŸ
+“	â€œ	â€œ	â€ždie spezialitÃ¤t des hauses â€œ: aus unserem heringsfaÃŸ
+—	â€”	â€”	coffee â€” tea â€” sanka
+ú	Ãº	Â°	pimm's nÂ° 1 cup
+à	Ã	Ã 	beef Ã  la mode 
+”	â€	â€
+
+
