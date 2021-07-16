@@ -5,7 +5,7 @@ from googlesearch import search
 import requests
   
 # read csv
-fin = open('Dish-subset-TEST.csv', 'r')
+fin = open('Dish-subset-TEST.csv', encoding='utf-8', errors='ignore')
 Lines = fin.readlines()
 
 # read input; write output line-by-line

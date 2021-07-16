@@ -2,8 +2,8 @@ import pandas as pd
 
 
 in_csv = 'Dish.csv'
-number_lines = sum(1 for row in (open(in_csv)))
-rowsize = 80000
+number_lines = sum(1 for row in (open(in_csv,encoding='utf-8', errors='ignore')))
+rowsize = 500000
 
 #colnames = ['id', 'name', 'description', 'menus_appeared', 'times_appeared', 'first_appeared', 'last_appeared', 'lowest_price', 'highest_price']
 # make this dynamic in case adding new cols through OpenRefine or other means

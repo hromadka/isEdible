@@ -5,7 +5,7 @@ from googlesearch import search
 import requests
   
 # read csv
-fin = open('Dish-csv.csv', 'r')
+fin = open('Dish-csv.csv', encoding='utf-8', errors='ignore')
 
 count = 0
 
