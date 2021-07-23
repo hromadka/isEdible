@@ -1,0 +1,94 @@
+winemag-data_first150k
+Excel:
+1. delete "id,description,designation,points,price,province,region_1,region_2"
+2. remove duplicates from "variety"
+3. append "variety" to end of "winery"
+
+beer_reviews
+python:
+1. split file into parts 1 & 2, lengths 1,048,576 and 1,586,616-1,048,576-1 (header)
+2. drop all columns except beer_name and beer_style
+Excel:
+3. remove duplicates from each column
+4. merge two files into one, length = 
+5. repeat step 3 on the merged file
+6. append "beer_style" to end of "beer_name"
+
+RAW_recipes.csv
+Excel:
+1. dropped all columns except "name"
+2. remove duplicates
+
+recipes-de.json
+Python:
+1. script to extract only the "Name" field value and write to CSV.
+Excel:
+2. remove duplicates
+
+
+Recipes.csv and Recipes_2.csv
+Excel:
+1. dropped all columns except "title"
+2. remove duplicates'
+
+
+winequality-red.csv
+--> useless data.  Nothing but chemical measurements.  No wine names.
+
+
+food-comp-data-fr.csv --> recipes-fr.csv
+Excel:
+1. split on ";" delimiter
+2. dropped all columns except "ORIGFDNM" (Original Food Name)
+3. remove duplicates
+
+=======================
+concatentate all pre-final CSV files, clean up in OpenRefine (whitespace)
+
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "dish",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column dish using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "dish",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column dish using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "dish",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column dish using expression value.toLowercase()"
+  }
+]
+
+
+de-duplicate in Excel, done.  303,125 lines of data.
+
+
+
