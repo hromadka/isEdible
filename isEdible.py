@@ -37,26 +37,28 @@ for line in Lines: #for line in stdin:
     if x[NAME_CORRECTED] in dishes:
         print('found ' + x[NAME_CORRECTED])
         isEdible = 1
-        fout.write("1\n")
+        #fout.write("1\n")
     else:
         # now try just keywords
         words = x[NAME_CORRECTED].split(" ")
-        for w in words:
+        for word in words:
+            w = word.strip().strip('"')
             if len(w) > MIN_LENGTH:
                 if w in dishes:
                     print('found ' + x[NAME_CORRECTED])
                     isEdible = 1
-                    fout.write("1\n") 
-                if isEdible:
-                    continue                   
+                    #fout.write("1\n") 
+            if isEdible:
+                continue                   
 
-    # write modified csv
-    # for some reason, a simpler "fout.write(isEdible)" wasn't working consistently
-    # and I'm too tried to debug something stupid
-#        fout.write(str(isEdible))
     if not isEdible:
         print('do not eat ' + x[NAME_CORRECTED])
-        fout.write("0\n")  
+#        fout.write("0\n")  
+    # write modified csv
+    if counter == 1:
+        fout.write("isEdible\n")
+    else:
+        fout.write(str(isEdible)+"\n")
 
  #   if counter > 100:
  #       break
@@ -64,5 +66,5 @@ for line in Lines: #for line in stdin:
 
 fout.close()
 fin.close()
-print(len(dishes))
+print(counter)
 
