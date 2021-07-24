@@ -13,6 +13,7 @@ id,name,description,menus_appeared,times_appeared,first_appeared,last_appeared,l
 13,Anchovies,,453,484,1858,1987,0,30
 14,Fresh lobsters in every style,,4,4,1899,1900,0,0
 15,Celery,,4248,4693,1,2928,0,50
+999999,celery,,4248,4693,1,2928,0,50
 16,Pim-olas,,145,148,1897,1918,0.15,35
 17,Caviar,,505,534,1880,1987,0,75
 18,Sardines,,1426,1484,1856,2928,0,50
@@ -233,3 +234,5 @@ id,name,description,menus_appeared,times_appeared,first_appeared,last_appeared,l
 520701,"Salt-Mackerel,",,1,1,0,0,0,0
 520702,Kalbsnierenbraten Gelbe Rüben und Erbsen,,1,1,0,0,0,0
 520703,"DUMPLINGS, CRANBERRIES",,1,1,0,0,0,0
+520703,Radishes,,1,1,0,0,0,0
+520703,Oysters,,1,1,0,0,0,0

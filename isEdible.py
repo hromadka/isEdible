@@ -4,9 +4,21 @@ from csv import writer
 #from bs4 import BeautifulSoup
 #import requests
   
-# read csv
-fin = open('Dish-subset-TEST.csv', encoding='utf-8', errors='ignore')
+# read DISH csv
+fin = open('Dish.csv', encoding='utf-8', errors='ignore')
 Lines = fin.readlines()
+
+flookup = open('lookup-csv.csv', 'r', encoding='utf-8')
+Refs = flookup.readlines()
+flookup.close()
+
+#dishes = dict.fromkeys(Refs)
+dishes = {}
+for ref in Refs:
+    r = ref.rstrip('\n').split(',')
+#    print(r)
+    dishes[r[0]] = "1"
+
 
 # read input; write output line-by-line
 with open('Dish-edible.csv', 'w') as fout:
@@ -16,14 +28,16 @@ with open('Dish-edible.csv', 'w') as fout:
         x = line.rstrip('\n').split(',')
 
         # search term
-        query = x[1]  
+        isEdible = 0
+        if x[1] in dishes:
+            print('found ' + x[1])
+            isEdible = 1
+        else:
+            print('do not eat ' + x[1])  
  
-
-
         # write modified csv
-        fout.write(result)
+        fout.write(isEdible)
 
 fout.close()
 fin.close()
-
 
