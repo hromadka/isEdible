@@ -3,12 +3,15 @@ from csv import writer
 #from googlesearch import search
 #from bs4 import BeautifulSoup
 #import requests
-  
+
+MIN_LENGTH = 4
+
 # read DISH csv
-fin = open('Dish.csv', encoding='utf-8', errors='ignore')
+NAME_CORRECTED = 2
+fin = open('Dish-csv.csv', encoding='utf-8', errors='ignore')
 Lines = fin.readlines()
 
-flookup = open('lookup-csv.csv', 'r', encoding='utf-8')
+flookup = open('lookup-pg-csv.csv', 'r', encoding='utf-8')
 Refs = flookup.readlines()
 flookup.close()
 
@@ -17,27 +20,49 @@ dishes = {}
 for ref in Refs:
     r = ref.rstrip('\n').split(',')
 #    print(r)
-    dishes[r[0]] = "1"
+    dishes[r[0]] = "1"  # dummy value just in case
 
 
 # read input; write output line-by-line
-with open('Dish-edible.csv', 'w') as fout:
-    for line in Lines: #for line in stdin:
-        query = "default"
-        # note that this fails if there is a comma in the field
-        x = line.rstrip('\n').split(',')
+counter = 0
+fout = open('Dish-edible.csv', 'w')
+for line in Lines: #for line in stdin:
+    counter += 1  # for debugging, can delete
+    query = "default"
+    # note that this fails if there is a comma in the field!
+    x = line.rstrip('\n').split(',')
 
-        # search term
-        isEdible = 0
-        if x[1] in dishes:
-            print('found ' + x[1])
-            isEdible = 1
-        else:
-            print('do not eat ' + x[1])  
- 
-        # write modified csv
-        fout.write(isEdible)
+    # search term
+    isEdible = 0
+    if x[NAME_CORRECTED] in dishes:
+        print('found ' + x[NAME_CORRECTED])
+        isEdible = 1
+        fout.write("1\n")
+    else:
+        # now try just keywords
+        words = x[NAME_CORRECTED].split(" ")
+        for w in words:
+            if len(w) > MIN_LENGTH:
+                if w in dishes:
+                    print('found ' + x[NAME_CORRECTED])
+                    isEdible = 1
+                    fout.write("1\n") 
+                if isEdible:
+                    continue                   
+
+    # write modified csv
+    # for some reason, a simpler "fout.write(isEdible)" wasn't working consistently
+    # and I'm too tried to debug something stupid
+#        fout.write(str(isEdible))
+    if not isEdible:
+        print('do not eat ' + x[NAME_CORRECTED])
+        fout.write("0\n")  
+
+ #   if counter > 100:
+ #       break
+
 
 fout.close()
 fin.close()
+print(len(dishes))
 
